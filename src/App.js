@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyFirstComponent from './MyFirstComponent'
 
 function App() {
   return (
@@ -18,17 +19,11 @@ function App() {
         >
           تعلم رياكت 
         </a>
-        <h1>
-          jjjj
-                    </h1>
-              
-                
-                    h1    
-
-     
+        <MyFirstComponent />
       </header>
     </div>
   );
 }
+
 
 export default App;
